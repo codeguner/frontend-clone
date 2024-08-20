@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+--header-color: 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-text {
+    padding: 19px;
+    border: none;
+    color: #fff;
+    background-color: #21aa93;
+
+    text-align: center;
+
+    font-size: 15px;
+    font-family:Poppins, sans-serif;
+}
+
+.bar-navigation {
+    display: flex;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.bar-navigation li {
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
+.logo {
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.logo-letter_a {
+    color: #21aa93;
+}
+
+.logo-letter_i {
+    color: #21aa93;
+}
+
+.logo-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .hero-image {
+    display: flex;
+}
+
+.hero img {
+    width: 50%;
+    height: auto;
+}
+
+.hero-text {
+    position: relative;
+    bottom: 650px;
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+
+.hero-text2 {
+    position: relative;
+    bottom: 620px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+
+.button__upload-image {
+    position: relative;
+    bottom: 580px;
+    display: flex;
+    justify-content: center;
+}
+
+.button__upload-image button{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.div-or {
+    background-color: #fff;
+    border-radius: 12px;
+    width: 38px;
+    height: 24px;
+    padding-top: 1px;
+    text-align: center;
+    position: relative;
+    bottom: 560px;
+    display: flex;
+    justify-content: center;
+}
+
