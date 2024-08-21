@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(0, 110, 117)
+}
+.logo__button{
+    display: flex;
+    padding: 40px 0px 20px 130px;
+    justify-content: baseline;
+    gap: 5px;
+}
+
+.logo__button button{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(11, 151, 142);
+
+    padding: 5px 7px;
+    margin: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.nav_bar li{
+    list-style: none;
+    margin-right: 20px;
+    color: white;
+    font-size: larger;
+    
+    
+}
+.d-nav{
+    position: relative;
+    bottom: 58px;
+    padding-left: 60px;
+}
+.arrow-img img{
+    transform: rotate(180deg);
+}
+.search-log-sign{
+    display: flex;
+    justify-content: end;
+    gap: 45px;
+}
+.search-log-sign li{
+    list-style: none;
+}
+.search-bar{
+    position: relative;
+    right: 180px;
+    bottom: 84px;
+}
+
+.sign-up {
+    color: white;
+    font-size: larger;
+}
+.log-in_button button{
+    color: white;
+    font-size: larger;
+    background-color: transparent;
+    padding: 19px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
